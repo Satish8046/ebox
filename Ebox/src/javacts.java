@@ -4955,7 +4955,22 @@ public class javacts {
 	s.close();
 	}
 	}
-	UserMainCode: public class UserMainCode { public static int getSumOfNfibos(int n){ int a=-1,b=1,c=0,d=0; for(int i=0;i<n;i++) { c=a+b; d=d+c; a=b; b=c; } return d; }
+	UserMainCode: 
+		public class UserMainCode 
+		{ 
+		public static int getSumOfNfibos(int n)
+		{ 
+			int a=-1,b=1,c=0,d=0;
+			for(int i=0;i<n;i++) 
+			{ 
+				c=a+b; 
+				d=d+c;
+				a=b; 
+				b=c;
+				} 
+			return d; 
+			}
+		}
 	}
 	6.Test Vowels
 	Write a program to read a string and check if given string contains exactly five vowels in any
